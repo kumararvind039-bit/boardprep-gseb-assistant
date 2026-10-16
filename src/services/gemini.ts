@@ -4,7 +4,7 @@ export const geminiModel = "gemini-2.5-flash";
 
 export function getApiKey(): string {
   if (typeof window !== 'undefined') {
-    const stored = localStorage.getItem('GEMINI_API_KEY');
+    const stored = localStorage.getItem('AQ.Ab8RN6LVM7k3Cb6NxbPzelEIRUmQOc5WpRwNHfbcAe9nIzNhVw');
     if (stored) return stored;
   }
   return process.env.GEMINI_API_KEY || "";
